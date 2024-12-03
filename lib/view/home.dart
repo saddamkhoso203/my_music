@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:my_music/const/color.dart';
 import 'package:my_music/const/text-style.dart';
+import 'package:my_music/controller/player_controller.dart';
+import 'package:get/get.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
 
+
+
   @override
   Widget build(BuildContext context) {
+
+    var controller = Get.put(PlayerController());
+
     return Scaffold(
       backgroundColor: bgDarkColor,
       appBar: AppBar(

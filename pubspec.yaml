@@ -49,6 +49,7 @@ dev_dependencies:
   get: ^4.6.6
   just_audio: ^0.9.42
   on_audio_query: ^2.9.0
+  permission_handler: ^11.3.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
